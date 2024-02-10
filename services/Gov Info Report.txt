@@ -1,0 +1,12 @@
+$20 - TLO (Gets Social Security Number, Current Address, Current Number, DOB, Full Name, ETC.)
+
+$30 - Neko TLO (Gets Social Security Number, Drivers Licence Info, Current Address, Current Number, DOB, Full Name, ETC.)
+
+$30 - Medical Report (Gets Hospital/Medical Records)
+
+$20 - Credit Report (Gets ALL Bank Account Records Such as Partial CCs, Partial Bank Acc Nmbers, Balance, Payment And Balance History, ETC.)
+
+$20 - School Transcripts (Gets Grades + Classes of a Student)
+
+$20 - Dental Records (Gets Dental/Dentist Records)
+
