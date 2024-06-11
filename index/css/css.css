@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(8, 8, 8);
+    user-select: none;
+    background-image:url(../img/topography.svg)
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 2, 2);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 1s;
+  }
+
+  #overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #overlay a {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.10em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #overlay a:hover {
+    text-decoration: underline;
+  }
+
+  .header {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color:white
+  }
+
+  .se {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+
+  }
+
+  .so {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+  }
+   
+  #snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.services {
+  text-decoration: none;
+  position: absolute;
+  font-size: 30px;
+     color:white
+}
+
+
+.discord {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.telegram {
+  position: absolute;
+  left: 51%;
+  top :75%;
+}
+
+.dbin {
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  left: 45%;
+  top :74.6%;
+}
+
+.dbin-2 {
+  position: relative;
+  top: 70%;
+  left: 20%;
+  height: 40px;
+  width: 70px;
+}
+
+.icon {
+  position: relative;
+  top: 70%;
+  left: 20%;
+  height: 40px;
+  width: 40px;
+}
+
+.socials {
+  position: relative;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color:white
+}
